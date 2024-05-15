@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/bootstrap-icons.css')}}" rel="stylesheet">
-    <link href="{{asset('css/magnific-popup.css')}}" rel="stylesheet">
-    <link href="{{asset('css/templatemo-first-portfolio-style.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/bootstrap-icons.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/magnific-popup.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/templatemo-first-portfolio-style.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -76,7 +76,7 @@
                     <div class="col-lg-12 col-12 justify-content-center align-items-center">
                         <div class="hero-text">
                             <div class="hero-title-wrap d-flex align-items-center mb-4 justify-content-center">
-                                <img src="{{asset('images/profile-photo.png')}}"
+                                <img src="{{asset('/images/profile-photo.png')}}"
                                     class="avatar-image avatar-image-large img-fluid" alt="">
 
                                 <h1 class="hero-title ms-3 mb-0">Hello everyone!</h1>
@@ -88,17 +88,17 @@
                             <div class="d-flex flex-row justify-content-center mb-3 gap-3">
                                 <div class="p-4 rounded-circle btn btn-light">
                                     <a href="https://www.instagram.com/fangki_ip/">
-                                        <img src="{{asset('images/instagram-icon.svg')}}" width="30" height="30" alt="Instagram Icon">
+                                        <img src="{{asset('/images/instagram-icon.svg')}}" width="30" height="30" alt="Instagram Icon">
                                     </a>
                                 </div>
                                 <div class="p-4 rounded-circle btn btn-light">
                                     <a href="https://github.com/fangkiigopramana">
-                                        <img src="{{asset('images/github-icon.svg')}}" width="30" height="30" alt="Github Icon">
+                                        <img src="{{asset('/images/github-icon.svg')}}" width="30" height="30" alt="Github Icon">
                                     </a>
                                 </div>
                                 <div class="p-4 rounded-circle btn btn-light">
                                     <a href="https://www.linkedin.com/in/fangki-igo-pramana-a44517216/">
-                                        <img src="{{asset('images/linkedin-icon.svg')}}" width="30" height="30" alt="Linkedin Icon">
+                                        <img src="{{asset('/images/linkedin-icon.svg')}}" width="30" height="30" alt="Linkedin Icon">
                                     </a>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-12">
-                        <img src="{{asset('images/about-me-photo.jpg')}}" class="about-image img-fluid" alt="">
+                        <img src="{{asset('/images/about-me-photo.jpg')}}" class="about-image img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5 mt-lg-0">
@@ -421,13 +421,13 @@
     </footer>
 
     <!-- JAVASCRIPT FILES -->
-    <script src="{{asset('js/jquery.min.js')}}"></script>
-    <script src="{{asset('js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('js/jquery.sticky.js')}}"></script>
-    <script src="{{asset('js/click-scroll.js')}}"></script>
-    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('js/magnific-popup-options.js')}}"></script>
-    <script src="{{asset('js/custom.js')}}"></script>
+    <script src="{{asset('/js/jquery.min.js')}}"></script>
+    <script src="{{asset('/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('/js/jquery.sticky.js')}}"></script>
+    <script src="{{asset('/js/click-scroll.js')}}"></script>
+    <script src="{{asset('/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('/js/magnific-popup-options.js')}}"></script>
+    <script src="{{asset('/js/custom.js')}}"></script>
 
 </body>
 
